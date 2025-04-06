@@ -1,0 +1,312 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav h1 {
+    display: inline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#content {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+    font-family : Arial, sans-serif;
+
+    #logo{position: fixed;right: 0px;position: relative;top: 30px;}
+    #video{display: flex;justify-content: center;align-items: center;}
+    #c1{display: flex;justify-content: center;align-items: center;}
+    #c2{display: flex;justify-content: center;align-items: center;}
+    #c3{display: flex;justify-content: center;align-items: center;}
+    #c4{display: flex;justify-content: center;align-items: center;}
+    #c5{display: flex;justify-content: center;align-items: center;}
+    #c6{display: flex;justify-content: center;align-items: center;}
+    #c7{display: flex;justify-content: center;align-items: center;}
+    #b1{display: flex;justify-content: space-evenly;}
+    /* Default styles for all devices */
+body {
+    font-size: 16px;
+}
+
+/* Styles for devices with a width up to 600px */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+/* Footer Styles */
+footer {
+    background: #222;
+    color: white;
+    padding: 40px 0 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Footer Sections */
+.footer-section {
+    flex: 1;
+    margin: 15px;
+    min-width: 250px;
+}
+
+/* Footer Headings */
+.footer-section h2, 
+.footer-section h3 {
+    color: #f4b400;
+    margin-bottom: 15px;
+}
+
+/* Quick Links */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #f4b400;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+    transition: 0.3s;
+}
+
+.social-icons a:hover img {
+    filter: brightness(1) invert(0);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+/* 📱 Responsive Footer */
+@media (max-width: 768px) { 
+    
+}
+/* Styles for devices between 601px and 768px */
+@media (min-width: 601px) and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+/* Styles for devices between 769px and 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Styles for devices above 992px */
+@media (min-width: 993px) {
+    body {
+        font-size: 18px;
+    }
+}
+/* Footer Styles */
+footer {
+    background: #222;
+    color: white;
+    padding: 40px 0 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    height: 100px;
+}
+
+/* Footer Sections */
+.footer-section {
+    flex: 1;
+    margin: 15px;
+    min-width: 250px;
+}
+
+/* Footer Headings */
+.footer-section h2, 
+.footer-section h3 {
+    color: #f4b400;
+    margin-bottom: 15px;
+}
+
+/* Quick Links */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #f4b400;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+    transition: 0.3s;
+}
+
+.social-icons a:hover img {
+    filter: brightness(1) invert(0);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+/* 📱 Responsive Footer */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
+footer {
+    background: #222;
+    color: #fff;
+    padding: 15px 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 5px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 12px;}
+    
+    #wow{margin-top: 20px;}
+
